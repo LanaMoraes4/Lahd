@@ -1,0 +1,332 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+    position: relative;
+    bottom: 2rem;
+}
+
+.cabecalho img {
+    width: 40vh;
+}
+
+.cabecalho a {
+    font-family: "Oswald", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    text-decoration: none;
+    color: #fff;
+    letter-spacing: 1.5px;
+}
+
+.cabecalho a:hover {
+    text-decoration: underline;
+}
+
+.wllp {
+    background-image: url('img/wllpp\ shop.png');
+    background-size: cover;
+    background-position: center;
+    height: 750px;
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 350px;
+}
+
+.search input {
+    height: 60px;
+    width: 650px;
+    background-color: #000;
+    border: 1px solid #fff;
+    padding-left: 22px;
+}
+
+input::placeholder {
+    color: #fff;
+    font-size: 14px;
+}
+
+button {
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    position: relative;
+    right: 35px;
+}
+
+.leg {
+    text-align: center;
+    position: relative;
+    top: 390px;
+    color: #fff;
+    font-family: "Oswald", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+.box {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top: 470px;
+}
+
+.style,
+.occasion,
+.taste {
+    background-color: #9C4B01;
+    width: 300px;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+}
+
+.style,
+.occasion,
+.taste p {
+    color: #fff;
+    font-family: "Oswald", sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    padding: 15px;
+    padding-top: 15px;
+}
+
+.style button {
+    position: relative;
+    left: 150px;
+}
+
+.occasion button {
+    position: relative;
+    left: 145px;
+}
+
+.taste button {
+    position: relative;
+    left: 125px;
+}
+
+body {
+    background-image: url('img/wllpps.png');
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.container {
+    width: 90%;
+    max-width: 1100px;
+    margin: 50px auto;
+}
+
+.filtro {
+    margin-bottom: 30px;
+    font-size: 18px;
+    font-family: "Oswald", sans-serif;
+    font-weight: 200;
+}
+
+.filtro span {
+    font-weight: 400;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.add-carrinho i {
+    color: white;
+    font-size: 18px;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+.card {
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.6);
+    border: 1px solid #444;
+    width: 320px;
+    height: 350px;
+    text-align: center;
+    padding: 15px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.add-carrinho {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: rgba(255, 255, 255, 0.15);
+    border: none;
+    border-radius: 50%;
+    padding: 8px;
+    cursor: pointer;
+    transition: 0.3s ease;
+    z-index: 2;
+    opacity: 0;
+    transform: scale(0.8);
+    outline: none;
+    border: none;
+}
+
+.add-carrinho:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.card:hover .add-carrinho {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.add-carrinho:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+    transform: scale(1.1);
+}
+
+.card p {
+    margin-top: 10px;
+    font-size: 18px;
+    font-family: "Oswald", sans-serif;
+    font-weight: 800;
+    color: #fff;
+}
+
+.filt {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 70px;
+    margin-top: 60px;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+footer {
+    margin-top: 15%;
+    background-color: #000;
+}
+
+.rodape {
+    display: flex;
+    text-align: center;
+}
+
+.logo-fim img {
+    width: 160px;
+}
+
+.rodape {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.ctt {
+    text-align: left;
+}
+
+.rodape span {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color: #fff;
+    font-size: 14px;
+}
+
+.ctt p {
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 30px 0;
+    font-size: 12px;
+}
+
+.redes {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    position: relative;
+    top: 20px;
+}
+
+.redes span {
+    position: relative;
+    bottom: 40px;
+}
+
+.redes img {
+    width: 30px;
+    margin: 10px 0;
+    position: relative;
+    bottom: 30px;
+    left: 28px;
+}
+
+hr {
+    display: flex;
+    justify-self: center;
+    border: none;
+    height: 1px;
+    width: 1300px;
+    background: #9C4B01;
+    margin: 20px 0;
+}
+
+.direitos {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.direitos p {
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+.direitos img {
+    width: 150px;
+    display: flex;
+    align-self: center;
+    margin-top: 10px;
+    margin-bottom: 8px;
+}

@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(img/fundo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.background {
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+.login-logo {
+    width: 510px;
+    height: 600px;
+    padding: 2px 50px;
+    background-color: #222222;
+    border-radius: 10px;
+    box-shadow: -5px 10px 35px 15px #000000aa;
+    text-align: center;
+}
+
+.login-logo img {
+    width: 70%;
+    position: relative;
+    bottom: 35px;
+}
+
+.login-logo input {
+    margin-bottom: 4%;
+    position: relative;
+    bottom: 90px;
+}
+
+.input-entrar input {
+    width: 100%;
+    padding: 14px;
+    border-radius: 8px;
+    background-color: transparent;
+    border: 3.5px solid #505050;
+    color: #fff;
+}
+
+input::placeholder {
+    color: #B1B1B1;
+    font-family: "Oswald", sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+button {
+    color: #000000;
+    font-family: "Oswald", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    width: 100%;
+    padding: 14px;
+    border-radius: 8px;
+    position: relative;
+    bottom: 54px;
+    background-color: #fff;
+}
+
+.data-input {
+  color: #fff;             
+  border: 1px solid #555;
+  padding: 8px;
+  border-radius: 6px;
+}
+
+.data-input::placeholder {
+  color: #B1B1B1; 
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+  filter: invert(1);
+}

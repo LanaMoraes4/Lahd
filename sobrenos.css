@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    background-color: #000;
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+    position: relative;
+    bottom: 2rem;
+}
+
+.cabecalho img {
+    width: 40vh;
+}
+
+.cabecalho a {
+    font-family: "Oswald", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    text-decoration: none;
+    color: #fff;
+    letter-spacing: 1.5px;
+}
+
+.cabecalho a:hover {
+    text-decoration: underline;
+}
+
+.wllp {
+    background-image: url('img/sobnos.png');
+    background-size: cover;
+    background-position: center;
+    height: 750px;
+}
+
+.hist {
+    background-image: url('img/sob2.png');
+    background-size: cover;
+    background-position: center;
+    height: 750px;
+}
+
+.howto {
+    background-image: url('img/sob3.png');
+    background-size: cover;
+    background-position: center;
+    height: 750px;
+}
+
+.h {
+    color: #fff;
+    font-family: "Oswald", sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    padding: 75px;
+    width: 50%;
+    line-height: 1.6;
+    position: relative;
+    top: 16rem;
+    left: 6rem;
+}
+
+.t {
+    color: #fff;
+    font-family: "Oswald", sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    padding: 75px;
+    width: 50%;
+    line-height: 1.6;
+    position: relative;
+    top: 16rem;
+    left: 2rem;
+}
+
+footer {
+    background-color: #000;
+}
+
+.rodape {
+    display: flex;
+    text-align: center;
+}
+
+.logo-fim img {
+    width: 160px;
+}
+
+.rodape {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.ctt {
+    text-align: left;
+}
+
+.rodape span {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color: #fff;
+    font-size: 14px;
+}
+
+.ctt p {
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 30px 0;
+    font-size: 12px;
+}
+
+.redes {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    position: relative;
+    top: 20px;
+}
+
+.redes span {
+    position: relative;
+    bottom: 40px;
+}
+
+.redes img {
+    width: 30px;
+    margin: 10px 0;
+    position: relative;
+    bottom: 30px;
+    left: 28px;
+}
+
+hr {
+    display: flex;
+    justify-self: center;
+    border: none;
+    height: 1px;
+    width: 1300px;
+    background: #9C4B01;
+    margin: 20px 0;
+}
+
+.direitos {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.direitos p {
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+.direitos img {
+    width: 150px;
+    display: flex;
+    align-self: center;
+    margin-top: 10px;
+    margin-bottom: 8px;
+}
